@@ -1,5 +1,7 @@
 #! /usr/bin/python3
 
+# part 1
+
 # get input
 with open("input.txt") as file:
     measurements=[]
@@ -13,6 +15,8 @@ for i in range(len(measurements)):
         print(measurements[i], " is greater than ", measurements[i-1])
         count += 1
 print(count)
+
+# part 2
 
 # check if sum of i+1,i+2,i+3 is greater than sum of i,i+1,i+2
 slide_count = 0
